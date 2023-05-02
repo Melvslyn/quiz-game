@@ -150,14 +150,22 @@ export default function App() {
                 }
     ];
 
+    const shuffle = (array) => {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    };
+
     const handleCategorySelection = (category) => {
         setSelectedCategory(category);
         if (category === "Python") {
-            setQuestions(pythonQuestions);
+            setQuestions(shuffle(pythonQuestions));
         } else if (category === "Java") {
-            setQuestions(javaQuestions);
+            setQuestions(shuffle(javaQuestions));
         } else if (category === "C#") {
-            setQuestions(cSharpQuestions);
+            setQuestions(shuffle(cSharpQuestions));
         }
     };
 
