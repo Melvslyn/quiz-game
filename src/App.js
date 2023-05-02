@@ -3,39 +3,39 @@ import React, { useState } from 'react';
 export default function App() {
 	const questions = [
 		{
-			questionText: 'What is the capital of France?',
+			questionText: 'Which of the following is not a data type in Python',
 			answerOptions: [
-				{ answerText: 'New York', isCorrect: false },
-				{ answerText: 'London', isCorrect: false },
-				{ answerText: 'Paris', isCorrect: true },
-				{ answerText: 'Dublin', isCorrect: false },
+				{ answerText: 'integer', isCorrect: false },
+				{ answerText: 'float', isCorrect: false },
+				{ answerText: 'string', isCorrect: false },
+				{ answerText: 'character', isCorrect: true },
 			],
 		},
 		{
-			questionText: 'Who is CEO of Tesla?',
+			questionText: 'Which keyword is used to create a function in Python?',
 			answerOptions: [
-				{ answerText: 'Jeff Bezos', isCorrect: false },
-				{ answerText: 'Elon Musk', isCorrect: true },
-				{ answerText: 'Bill Gates', isCorrect: false },
-				{ answerText: 'Tony Stark', isCorrect: false },
+				{ answerText: 'func', isCorrect: false },
+				{ answerText: 'function', isCorrect: false },
+				{ answerText: 'def', isCorrect: true },
+				{ answerText: 'define', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'The iPhone was created by which company?',
+			questionText: 'What is the output of the following code? numbers = [1, 2, 3, 4, 5] print(numbers[1:4])',
 			answerOptions: [
-				{ answerText: 'Apple', isCorrect: true },
-				{ answerText: 'Intel', isCorrect: false },
-				{ answerText: 'Amazon', isCorrect: false },
-				{ answerText: 'Microsoft', isCorrect: false },
+				{ answerText: '[1, 2, 3]', isCorrect: false },
+				{ answerText: '[2, 3, 4]', isCorrect: true },
+				{ answerText: '[2, 3, 4, 5]', isCorrect: false },
+				{ answerText: '[1, 2, 4]', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'How many Harry Potter books are there?',
+			questionText: 'What is the correct way to import the "math" module in Python?',
 			answerOptions: [
-				{ answerText: '1', isCorrect: false },
-				{ answerText: '4', isCorrect: false },
-				{ answerText: '6', isCorrect: false },
-				{ answerText: '7', isCorrect: true },
+				{ answerText: 'import Math', isCorrect: true },
+				{ answerText: 'from math import *', isCorrect: false },
+				{ answerText: 'include math', isCorrect: false },
+				{ answerText: 'from math import math', isCorrect: false },
 			],
 		},
 	];
