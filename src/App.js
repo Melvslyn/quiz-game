@@ -38,11 +38,21 @@ export default function App() {
 				{ answerText: 'from math import math', isCorrect: false },
 			],
 		},
+    {
+			questionText: 'What is the correct way to import the "math" module in Python?',
+			answerOptions: [
+				{ answerText: 'import Math', isCorrect: true },
+				{ answerText: 'from math import *', isCorrect: false },
+				{ answerText: 'include math', isCorrect: false },
+				{ answerText: 'from math import math', isCorrect: false },
+			],
+		},
 	];
 
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 	const [showScore, setShowScore] = useState(false);
 	const [score, setScore] = useState(0);
+  const [startQuiz, setStartQuiz] = useState(false);
 
 	const handleAnswerOptionClick = (isCorrect) => {
 		if (isCorrect) {
@@ -56,11 +66,27 @@ export default function App() {
 			setShowScore(true);
 		}
 	};
+
+  const start = () => {
+    setStartQuiz(true);
+};
+
+  const restartQuiz = () => {
+    setShowScore(false);
+    setScore(0);
+    setCurrentQuestion(0);
+};
 	return (
 		<div className='app'>
-			{showScore ? (
+        {!startQuiz ? (
+                <div className='start-section'>
+                    <h2>Welcome to the Quiz Game!</h2>
+                    <button onClick={start}>Start</button>
+                </div>
+            ) : showScore ? (
 				<div className='score-section'>
 					You scored {score} out of {questions.length}
+          <button onClick={restartQuiz}>Play Again</button>
 				</div>
 			) : (
 				<>
