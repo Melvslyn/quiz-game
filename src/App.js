@@ -10,46 +10,46 @@ export default function App() {
       {            
         questionText: 'Which of the following is not a data type in Python?',
         answerOptions: [                
-          { answerText: 'integer', isCorrect: false }, 
-          { answerText: 'float', isCorrect: false },                
-          { answerText: 'string', isCorrect: false },                
-          { answerText: 'character', isCorrect: true },            
+          { answerText: 'a. integer', isCorrect: false }, 
+          { answerText: 'b. float', isCorrect: false },                
+          { answerText: 'c. string', isCorrect: false },                
+          { answerText: 'd. character', isCorrect: true },            
         ],
         },
         {            
           questionText: 'Which keyword is used to create a function in Python?',
           answerOptions: [                
-            { answerText: 'func', isCorrect: false }, 
-            { answerText: 'function', isCorrect: false },                
-            { answerText: 'def', isCorrect: true },                
-            { answerText: 'define', isCorrect: false },            
+            { answerText: 'a. func', isCorrect: false }, 
+            { answerText: 'b. function', isCorrect: false },                
+            { answerText: 'c. def', isCorrect: true },                
+            { answerText: 'f. define', isCorrect: false },            
           ],
           },
           {            
             questionText: 'What is the correct way to import the "math" module in Python?',
             answerOptions: [                
-              { answerText: 'import Math', isCorrect: true }, 
-              { answerText: 'from math import *', isCorrect: false },                
-              { answerText: 'include math', isCorrect: false },                
-              { answerText: 'from math import math', isCorrect: false },            
+              { answerText: 'a. import Math', isCorrect: true }, 
+              { answerText: 'b. from math import *', isCorrect: false },                
+              { answerText: 'c. include math', isCorrect: false },                
+              { answerText: 'd. from math import math', isCorrect: false },            
             ],
             },
             {            
               questionText: 'Which of the following is not a loop statement in Python?',
               answerOptions: [                
-                { answerText: 'for loop', isCorrect: false }, 
-                { answerText: 'while loop', isCorrect: false },                
-                { answerText: 'do-while loop', isCorrect: true },                
-                { answerText: 'range loop', isCorrect: false },            
+                { answerText: 'a. for loop', isCorrect: false }, 
+                { answerText: 'b. while loop', isCorrect: false },                
+                { answerText: 'c. do-while loop', isCorrect: true },                
+                { answerText: 'd. range loop', isCorrect: false },            
               ],
               },
               {            
                 questionText: 'Which of the following is not a data type in Python?',
                 answerOptions: [                
-                  { answerText: 'integer', isCorrect: false }, 
-                  { answerText: 'float', isCorrect: false },                
-                  { answerText: 'string', isCorrect: false },                
-                  { answerText: 'character', isCorrect: true },            
+                  { answerText: 'a. integer', isCorrect: false }, 
+                  { answerText: 'b. float', isCorrect: false },                
+                  { answerText: 'c. string', isCorrect: false },                
+                  { answerText: 'd. character', isCorrect: true },            
                 ],
                 }
     ];
@@ -58,46 +58,46 @@ export default function App() {
       {            
         questionText: 'Which of the following is not a valid data type in Java?',
         answerOptions: [                
-          { answerText: 'int', isCorrect: false },                
-          { answerText: 'float', isCorrect: false },                
-          { answerText: 'double', isCorrect: false },                
-          { answerText: 'decimal', isCorrect: true },            
+          { answerText: 'a. int', isCorrect: false },                
+          { answerText: 'b. float', isCorrect: false },                
+          { answerText: 'c. double', isCorrect: false },                
+          { answerText: 'd. decimal', isCorrect: true },            
         ],
         },
         {            
           questionText: 'What is the output of the following code in Java? \n System.out.println(5/2);',
           answerOptions: [                
-            { answerText: '2', isCorrect: false },                
-            { answerText: '2.5', isCorrect: false },                
-            { answerText: '2.0', isCorrect: true },                
-            { answerText: '5/2', isCorrect: false },            
+            { answerText: 'a. 2', isCorrect: false },                
+            { answerText: 'b. 2.5', isCorrect: false },                
+            { answerText: 'c. 2.0', isCorrect: true },                
+            { answerText: 'd. 5/2', isCorrect: false },            
           ],
           },
           {            
             questionText: 'What is the output of the following code? \n String name = "John"; \n System.out.println("Hello " + name);',
             answerOptions: [                
-              { answerText: 'Hello John', isCorrect: true },                
-              { answerText: 'John', isCorrect: false },                
-              { answerText: 'Hello', isCorrect: false },                
-              { answerText: 'None of the above', isCorrect: false },            
+              { answerText: 'a. Hello John', isCorrect: true },                
+              { answerText: 'b. John', isCorrect: false },                
+              { answerText: 'c. Hello', isCorrect: false },                
+              { answerText: 'd. None of the above', isCorrect: false },            
             ],
             },
             {            
               questionText: 'What is the output of the following code? int i = 0; \n while (i < 5) { \n System.out.println(i); \n i++; \n }',
               answerOptions: [                
-                { answerText: '0 1 2 3 4', isCorrect: true },                
-                { answerText: '1 2 3 4 5', isCorrect: false },                
-                { answerText: '0 1 2 3', isCorrect: false },                
-                { answerText: 'None of the above', isCorrect: false },            
+                { answerText: 'a. 0 1 2 3 4', isCorrect: true },                
+                { answerText: 'b. 1 2 3 4 5', isCorrect: false },                
+                { answerText: 'c. 0 1 2 3', isCorrect: false },                
+                { answerText: 'd. None of the above', isCorrect: false },            
               ],
               },
               {            
                 questionText: 'What is the output of the following code in Java? \n System.out.println(5/2);',
                 answerOptions: [                
-                  { answerText: '2', isCorrect: false },                
-                  { answerText: '2.5', isCorrect: false },                
-                  { answerText: '2.0', isCorrect: true },                
-                  { answerText: '5/2', isCorrect: false },            
+                  { answerText: 'a. 2', isCorrect: false },                
+                  { answerText: 'b. 2.5', isCorrect: false },                
+                  { answerText: 'c. 2.0', isCorrect: true },                
+                  { answerText: 'd. 5/2', isCorrect: false },            
                 ],
                 }
     ];
@@ -106,46 +106,46 @@ export default function App() {
       {            
         questionText: 'Which of the following is not a valid type in C#?',
         answerOptions: [                
-          { answerText: 'int', isCorrect: false },                
-          { answerText: 'bool', isCorrect: false },                
-          { answerText: 'string', isCorrect: false },                
-          { answerText: 'float', isCorrect: true },            
+          { answerText: 'a. int', isCorrect: false },                
+          { answerText: 'b. bool', isCorrect: false },                
+          { answerText: 'c. string', isCorrect: false },                
+          { answerText: 'd. float', isCorrect: true },            
         ],
         },
         {            
           questionText: 'Which of the following is not a valid type in C#?',
           answerOptions: [                
-            { answerText: 'int', isCorrect: false },                
-            { answerText: 'bool', isCorrect: false },                
-            { answerText: 'string', isCorrect: false },                
-            { answerText: 'float', isCorrect: true },            
+            { answerText: 'a. int', isCorrect: false },                
+            { answerText: 'b. bool', isCorrect: false },                
+            { answerText: 'c. string', isCorrect: false },                
+            { answerText: 'd. float', isCorrect: true },            
           ],
           },
           {            
             questionText: 'Which of the following is not a valid type in C#?',
             answerOptions: [                
-              { answerText: 'int', isCorrect: false },                
-              { answerText: 'bool', isCorrect: false },                
-              { answerText: 'string', isCorrect: false },                
-              { answerText: 'float', isCorrect: true },            
+              { answerText: 'a. int', isCorrect: false },                
+              { answerText: 'b. bool', isCorrect: false },                
+              { answerText: 'c. string', isCorrect: false },                
+              { answerText: 'd. float', isCorrect: true },            
             ],
             },
             {            
               questionText: 'Which of the following is not a valid type in C#?',
               answerOptions: [                
-                { answerText: 'int', isCorrect: false },                
-                { answerText: 'bool', isCorrect: false },                
-                { answerText: 'string', isCorrect: false },                
-                { answerText: 'float', isCorrect: true },            
+                { answerText: 'a. int', isCorrect: false },                
+                { answerText: 'b. bool', isCorrect: false },                
+                { answerText: 'c. string', isCorrect: false },                
+                { answerText: 'd. float', isCorrect: true },            
               ],
               },
               {            
                 questionText: 'Which of the following is not a valid type in C#?',
                 answerOptions: [                
-                  { answerText: 'int', isCorrect: false },                
-                  { answerText: 'bool', isCorrect: false },                
-                  { answerText: 'string', isCorrect: false },                
-                  { answerText: 'float', isCorrect: true },            
+                  { answerText: 'a. int', isCorrect: false },                
+                  { answerText: 'b. bool', isCorrect: false },                
+                  { answerText: 'c. string', isCorrect: false },                
+                  { answerText: 'd. float', isCorrect: true },            
                 ],
                 }
     ];
@@ -153,46 +153,46 @@ export default function App() {
       {
         questionText: 'What is JavaScript?',
         answerOptions: [
-          { answerText: 'JavaScript is a scripting language used to make the website interactive', isCorrect: true },
-          { answerText: 'JavaScript is an assembly language used to make the website interactive', isCorrect: false },
-          { answerText: 'JavaScript is a compiled language used to make the website interactive', isCorrect: false },
-          { answerText: 'None of the above', isCorrect: false },
+          { answerText: 'a. JavaScript is a scripting language used to make the website interactive', isCorrect: true },
+          { answerText: 'b. JavaScript is an assembly language used to make the website interactive', isCorrect: false },
+          { answerText: 'c. JavaScript is a compiled language used to make the website interactive', isCorrect: false },
+          { answerText: 'd. None of the above', isCorrect: false },
         ],
       },
       {
         questionText: 'Which of the following is correct about JavaScript?',
         answerOptions: [
-          { answerText: 'JavaScript is an Object-Based language', isCorrect: true },
-          { answerText: 'JavaScript is Assembly-language', isCorrect: false },
-          { answerText: 'JavaScript is an Object-Oriented language', isCorrect: false },
-          { answerText: 'JavaScript is a High-level language', isCorrect: false },
+          { answerText: 'a. JavaScript is an Object-Based language', isCorrect: true },
+          { answerText: 'b. JavaScript is Assembly-language', isCorrect: false },
+          { answerText: 'c. JavaScript is an Object-Oriented language', isCorrect: false },
+          { answerText: 'd. JavaScript is a High-level language', isCorrect: false },
         ]
       },
       {
         questionText: 'Arrays in JavaScript are defined by which of the following statements?',
         answerOptions: [
-          { answerText: 'It is an ordered list of values', isCorrect: true },
-          { answerText: 'It is an ordered list of objects', isCorrect: false },
-          { answerText: 'It is an ordered list of string', isCorrect: false },
-          { answerText: 'It is an ordered list of functions', isCorrect: false },
+          { answerText: 'a. It is an ordered list of values', isCorrect: true },
+          { answerText: 'b. It is an ordered list of objects', isCorrect: false },
+          { answerText: 'c. It is an ordered list of string', isCorrect: false },
+          { answerText: 'd. It is an ordered list of functions', isCorrect: false },
         ]
       },
       {
         questionText: 'Will the following JavaScript code work? \n var js = (function(x) {return x*x;}(10));',
         answerOptions: [
-          { answerText: 'Exception will be thrown', isCorrect: false },
-          { answerText: 'Memory leak', isCorrect: false },
-          { answerText: 'Error', isCorrect: false },
-          { answerText: 'Yes, perfectly', isCorrect: true },
+          { answerText: 'a. Exception will be thrown', isCorrect: false },
+          { answerText: 'b. Memory leak', isCorrect: false },
+          { answerText: 'c. Error', isCorrect: false },
+          { answerText: 'd. Yes, perfectly', isCorrect: true },
         ]
       },
       {
         questionText: ' Which of the following is not javascript data types?',
         answerOptions: [
-          { answerText: 'Null type', isCorrect: false },
-          { answerText: 'Undefined type', isCorrect: false },
-          { answerText: 'Number type', isCorrect: false },
-          { answerText: 'All of the above', isCorrect: true },
+          { answerText: 'a. Null type', isCorrect: false },
+          { answerText: 'b. Undefined type', isCorrect: false },
+          { answerText: 'c. Number type', isCorrect: false },
+          { answerText: 'd. All of the above', isCorrect: true },
         ]
       }     
     ]
@@ -241,7 +241,7 @@ export default function App() {
         setCurrentQuestion(0);
         setSelectedCategory("");
     };
-
+  
     return (
         <div className='app'>
             {!selectedCategory ? (
@@ -256,7 +256,19 @@ export default function App() {
             ) : showScore ? (
                 <div className='score-section'>
                     <h2>You scored {score} out of {questions.length}</h2>
+                    <div>
+                    <p>The correct answers were:</p>
+                    <ol>
+                      {questions.map((question, index) => (
+                        <li key={index}>
+                          {question.answerOptions.find((option) => option.isCorrect).answerText.charAt(0)}
+                        </li>
+                      ))}
+                    </ol>
+                    </div>
+                    <div>
                     <button onClick={restartQuiz}>Play Again</button>
+                    </div>
                 </div>
             ) : (
                 <>
