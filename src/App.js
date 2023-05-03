@@ -4,7 +4,7 @@ export default function App() {
     const [selectedCategory, setSelectedCategory] = useState("");
     const [questions, setQuestions] = useState([]);
 
-    const categories = ["Python", "Java", "C#"];
+    const categories = ["Python", "Java", "C#", "JavaScript"];
 
     const pythonQuestions = [        
       {            
@@ -149,6 +149,17 @@ export default function App() {
                 ],
                 }
     ];
+    const javaScriptQuestions = [   
+      {
+        questionText: 'Example question here!',
+        answerOptions: [
+          { answerText: 'int', isCorrect: false },
+          { answerText: 'int', isCorrect: false },
+          { answerText: 'int', isCorrect: false },
+          { answerText: 'int', isCorrect: false },
+        ],
+      }     
+    ]
 
     const shuffle = (array) => {
       for (let i = array.length - 1; i > 0; i--) {
@@ -166,7 +177,9 @@ export default function App() {
             setQuestions(shuffle(javaQuestions));
         } else if (category === "C#") {
             setQuestions(shuffle(cSharpQuestions));
-        }
+        } else if (category === "JavaScript") {
+          setQuestions(shuffle(javaScriptQuestions));
+      }
     };
 
     const [currentQuestion, setCurrentQuestion] = useState(0);
