@@ -85,6 +85,7 @@ button {
   align-items: center;
   border: 5px solid #234668;
   cursor: pointer;
+  margin: 5px;
 }
 
 .correct {

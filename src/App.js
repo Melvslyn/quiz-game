@@ -151,13 +151,49 @@ export default function App() {
     ];
     const javaScriptQuestions = [   
       {
-        questionText: 'Example question here!',
+        questionText: 'What is JavaScript?',
         answerOptions: [
-          { answerText: 'int', isCorrect: false },
-          { answerText: 'int', isCorrect: false },
-          { answerText: 'int', isCorrect: false },
-          { answerText: 'int', isCorrect: false },
+          { answerText: 'JavaScript is a scripting language used to make the website interactive', isCorrect: true },
+          { answerText: 'JavaScript is an assembly language used to make the website interactive', isCorrect: false },
+          { answerText: 'JavaScript is a compiled language used to make the website interactive', isCorrect: false },
+          { answerText: 'None of the above', isCorrect: false },
         ],
+      },
+      {
+        questionText: 'Which of the following is correct about JavaScript?',
+        answerOptions: [
+          { answerText: 'JavaScript is an Object-Based language', isCorrect: true },
+          { answerText: 'JavaScript is Assembly-language', isCorrect: false },
+          { answerText: 'JavaScript is an Object-Oriented language', isCorrect: false },
+          { answerText: 'JavaScript is a High-level language', isCorrect: false },
+        ]
+      },
+      {
+        questionText: 'Arrays in JavaScript are defined by which of the following statements?',
+        answerOptions: [
+          { answerText: 'It is an ordered list of values', isCorrect: true },
+          { answerText: 'It is an ordered list of objects', isCorrect: false },
+          { answerText: 'It is an ordered list of string', isCorrect: false },
+          { answerText: 'It is an ordered list of functions', isCorrect: false },
+        ]
+      },
+      {
+        questionText: 'Will the following JavaScript code work? \n var js = (function(x) {return x*x;}(10));',
+        answerOptions: [
+          { answerText: 'Exception will be thrown', isCorrect: false },
+          { answerText: 'Memory leak', isCorrect: false },
+          { answerText: 'Error', isCorrect: false },
+          { answerText: 'Yes, perfectly', isCorrect: true },
+        ]
+      },
+      {
+        questionText: ' Which of the following is not javascript data types?',
+        answerOptions: [
+          { answerText: 'Null type', isCorrect: false },
+          { answerText: 'Undefined type', isCorrect: false },
+          { answerText: 'Number type', isCorrect: false },
+          { answerText: 'All of the above', isCorrect: true },
+        ]
       }     
     ]
 
