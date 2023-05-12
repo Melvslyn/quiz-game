@@ -42,6 +42,11 @@ body {
   width: 100%;
   position: relative;
 }
+img {
+  width: 60px;
+  height: 60px;
+  align-items: center;
+}
 
 .question-count {
   margin-bottom: 20px;

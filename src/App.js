@@ -1,10 +1,20 @@
 import React, { useState } from 'react';
 
+import pythonImage from './images/python.png';
+import javaImage from './images/java.png';
+import csharpImage from './images/csharp.png';
+import jsImage from './images/js.png';
+
 export default function App() {
     const [selectedCategory, setSelectedCategory] = useState("");
     const [questions, setQuestions] = useState([]);
 
-    const categories = ["Python", "Java", "C#", "JavaScript"];
+    const categories = [
+      { name: "Python", image: pythonImage },
+      { name: "Java", image: javaImage },
+      { name: "C#", image: csharpImage },
+      { name: "JavaScript", image: jsImage },
+    ];
 
     const pythonQuestions = [        
       {            
@@ -248,8 +258,9 @@ export default function App() {
                 <div className='category-selection-section'>
                     <h2>Select a Category to Play</h2>
                     {categories.map((category) => (
-                        <button key={category} onClick={() => handleCategorySelection(category)}>
-                            {category}
+                        <button key={category.name} onClick={() => handleCategorySelection(category.name)}>
+                            <img src={category.image} alt={category.name} />
+                            
                         </button>
                     ))}
                 </div>
